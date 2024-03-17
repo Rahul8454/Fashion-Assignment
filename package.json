@@ -1,0 +1,25 @@
+{
+  "name": "fashion-assignment",
+  "version": "1.0.0",
+  "description": "About fashion assignment to create three end point on tree structure",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start" : "node server.js"
+  },
+  "keywords": [
+    "FASION"
+  ],
+  "author": "Rahul Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.3",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0"
+  }
+}
